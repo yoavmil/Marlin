@@ -4,7 +4,7 @@
 
 | axis  | gear | unit per rev | steps / rev | steps / unit |
 | :---- | :--- | :----------- | ----------- | ------------ |
-| X     | 1    | ? mm (pitch) | 200         |              |
+| X     | 1    | ? mm (pitch) | 200*32      | 508          |
 | Y     | 1    | ? mm (pitch) | 200         |              |
 | metal | 1    |              | 200         |              |
 |       |      |              | 200         |              |
@@ -13,7 +13,11 @@ $$
 \frac{steps}{units}=\frac{steps}{rev}/\frac{units}{rev}/gear
 $$
 
+X steppers are ![TS3617N504](https://www.tamagawa-seiki.com/products/stepmotor/2-phase-step.html).
 Y stepper is a 6 wire stepper:  A+/- = Red/Yellow, and B+/- = Blue/Green.
+The endstops wiring needs inverting, replace at the board side of the connector the white and the red.
+There is no Z axis for now, so I disabled the Z endstop by inverting it.
+adjust steppers current to 1Amp, see ![here](https://www.my-home-fab.de/en/documentations/technical-descriptions/drv8825-adjust-stepper-current)
 
 # Marlin 3D Printer Firmware
 

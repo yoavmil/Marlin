@@ -1,3 +1,20 @@
+# Magnus flavored Marlin
+
+## Inductor Jig
+
+| axis  | gear | unit per rev | steps / rev | steps / unit |
+| :---- | :--- | :----------- | ----------- | ------------ |
+| X     | 1    | ? mm (pitch) | 200         |              |
+| Y     | 1    | ? mm (pitch) | 200         |              |
+| metal | 1    |              | 200         |              |
+|       |      |              | 200         |              |
+
+$$
+\frac{steps}{units}=\frac{steps}{rev}/\frac{units}{rev}/gear
+$$
+
+Y stepper is a 6 wire stepper:  A+/- = Red/Yellow, and B+/- = Blue/Green.
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)

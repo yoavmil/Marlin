@@ -5,9 +5,9 @@
 | axis  | gear | unit per rev | steps / rev | steps / unit |
 | :---- | :--- | :----------- | ----------- | ------------ |
 | X     | 1    | ? mm (pitch) | 200*32      | 508          |
-| Y     | 1    | ? mm (pitch) | 200         |              |
-| metal | 1    |              | 200         |              |
-|       |      |              | 200         |              |
+| Y     | 1    | ? mm (pitch) | 200         | 80.72        |
+| Z     | 1    | 5 mm (pitch) | 200*32      | 1280         |
+| metal |      |              | 200         |              |
 
 $$
 \frac{steps}{units}=\frac{steps}{rev}/\frac{units}{rev}/gear

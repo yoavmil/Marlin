@@ -5,7 +5,7 @@
 | axis  | gear | unit per rev | steps / rev | steps / unit |
 | :---- | :--- | :----------- | ----------- | ------------ |
 | X     | 1    | ? mm (pitch) | 200*32      | 508          |
-| Y     | 1    | ? mm (pitch) | 200         | 80.72        |
+| Y     | 1    | ? mm (pitch) | 200*4       | 322.88       |
 | Z     | 1    | 5 mm (pitch) | 200*32      | 1280         |
 | metal |      |              | 200         |              |
 
